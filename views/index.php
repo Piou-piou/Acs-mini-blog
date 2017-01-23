@@ -13,7 +13,7 @@
 		<div class="col-xs-12">
 			<h2><?=$obj->titre?></h2>
 			<p><?=$obj->contenu?></p>
-			<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+			<p><a class="btn btn-default" href="index.php?page=article&id_article=<?=$obj->ID_article?>" role="button">View details &raquo;</a></p>
 		</div>
 	<?php endforeach;?>
 </div>

@@ -17,7 +17,7 @@
 			require_once("controller/get_all_articles.php");
 		}
 		if ($page == "views/article.php") {
-			require_once("controller/get_articles.php");
+			require_once("controller/get_article.php");
 		}
 		
 		include("views/template/index.php");
